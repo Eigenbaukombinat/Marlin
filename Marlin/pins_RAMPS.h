@@ -93,6 +93,8 @@
 #define X_ENABLE_PIN       38
 #define X_CS_PIN           53
 
+// X and Y are requiered to swap for that X400 RAMPS Board
+
 #define Y_STEP_PIN         60
 #define Y_DIR_PIN          61
 #define Y_ENABLE_PIN       56
@@ -116,8 +118,8 @@
 //
 // Temperature Sensors
 //
-#define TEMP_0_PIN         13   // Analog Input
-#define TEMP_1_PIN         15   // Analog Input
+#define TEMP_0_PIN         3   // Analog Input
+#define TEMP_1_PIN         4   // Analog Input
 #define TEMP_BED_PIN       14   // Analog Input
 
 // SPI for Max6675 or Max31855 Thermocouple
